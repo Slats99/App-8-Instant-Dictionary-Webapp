@@ -18,10 +18,12 @@ class DefaultLayout(jp.QLayout):
         jp.Br(a=qlist)
         jp.A(a=qlist, text="About", href="/about", classes=a_class)
         jp.Br(a=qlist)
+        jp.A(a=qlist, text="Flat Mate Bill", href="/fmb", classes=a_class)
+        jp.Br(a=qlist)
 
         jp.QBtn(a=toolbar, dense=True, flat=True, round=True, icon="menu",
                 click=self.move_drawer, drawer=drawer)
-        jp.QToolbarTitle(a=toolbar, text='Instant Dictionary')
+        jp.QToolbarTitle(a=toolbar, text='OOP course modules')
 
     @staticmethod
     def move_drawer(widget, msg):

@@ -3,6 +3,8 @@ from webapp import page
 from webapp.home import Home
 from webapp.about import About
 from webapp.dictionary import Dictionary
+from webapp.flatbill import FlatMateBill
+
 import inspect
 
 imports = list(globals().values())
